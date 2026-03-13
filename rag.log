@@ -1,0 +1,548 @@
+2026-03-12 00:17:27,307 - RAG-System - INFO - ==================================================
+2026-03-12 00:43:00,128 - RAG-System - INFO - ==================================================
+2026-03-12 00:48:53,099 - RAG-System - INFO - ==================================================
+2026-03-12 00:49:06,888 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 00:49:10,588 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-03-12 00:49:22,663 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 00:49:22,965 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 00:49:22,980 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 00:50:11,283 - RAG-System - ERROR - LLM 加载失败: 1 validation error for LlamaCpp
+__root__
+  Could not load Llama model from path: models/llama-2-7b-chat.Q4_0.gguf. Received error Model path does not exist: models/llama-2-7b-chat.Q4_0.gguf (type=value_error)
+2026-03-12 00:55:07,144 - RAG-System - INFO - ==================================================
+2026-03-12 00:55:20,051 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 00:55:26,205 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 00:55:26,302 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 00:55:26,302 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 00:56:19,023 - RAG-System - ERROR - LLM 加载失败: 1 validation error for LlamaCpp
+__root__
+  Could not load Llama model from path: models/qwen2.5-7b/qwen2.5-7b-instruct-q4_k_m.gguf. Received error  (type=value_error)
+2026-03-12 01:09:23,357 - RAG-System - INFO - ==================================================
+2026-03-12 01:09:36,305 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 01:09:46,338 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021C62116FB0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: ae9622e2-3f3a-44de-a4f6-0fa84a5873f1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 01:09:46,338 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 01:09:57,353 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021C621143A0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 9b3edc1b-c06c-4414-b334-a9dcb17d76d5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 01:09:57,353 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-12 01:10:07,160 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 01:10:07,256 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 01:10:07,256 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 01:10:07,415 - RAG-System - ERROR - LLM 加载失败: 1 validation error for LlamaCpp
+__root__
+  Could not load Llama model from path: ./models/qwen2.5-7b/qwen2.5-7b-instruct-q4_k_m.gguf. Received error  (type=value_error)
+2026-03-12 01:22:54,291 - RAG-System - INFO - ==================================================
+2026-03-12 01:23:08,781 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 01:23:15,670 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 01:23:15,813 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 01:23:15,813 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 01:23:46,738 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 08:53:46,181 - RAG-System - INFO - ==================================================
+2026-03-12 08:54:34,011 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 08:54:44,040 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996629AFB0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: f6abd2f0-2871-437c-9ca6-9fd1d5fb7e4a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:54:44,041 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 08:54:55,079 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000199662983A0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: c947a87e-abb1-4e73-a83e-9e3a5cdc7f9b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:54:55,080 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-12 08:55:07,101 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628F070>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 83073189-64ec-4bd7-ace5-3f7deb1d92de)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:55:07,102 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-12 08:55:21,129 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628D810>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: a4b15e77-1255-4f9f-b249-85d62e3bb678)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:55:21,130 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-12 08:55:39,160 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000199662983D0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: e73409b2-bd71-4623-ac1d-a4f9f668f8b3)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:55:39,161 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-12 08:55:57,176 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000199662981F0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 40e83112-b140-4831-931b-1d79a6fcf756)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 08:56:07,205 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628E7A0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 3a30b8c0-f0c6-4cc9-b6f2-eee84cf04fd8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 08:56:07,206 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 08:56:18,223 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628EAA0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 6c22d92d-2406-4a8b-bc63-00b68cb2b78c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 08:56:18,224 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-12 08:56:30,256 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628FC70>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: afd6e8fe-eb98-4489-a28d-f00a7dd66ced)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 08:56:30,257 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-12 08:56:44,281 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628DCF0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 9f38418f-6699-4d15-b928-7961232d3d6a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 08:56:44,282 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-12 08:57:02,299 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628D720>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 2c6f89dc-d661-426f-8a45-1339012b7bd0)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 08:57:02,299 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-12 08:57:20,327 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001996628D330>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 169eb653-7fda-4b4d-a8c6-2f350874b438)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 09:29:41,401 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 09:29:41,409 - RAG-System - INFO - ==================================================
+2026-03-12 09:29:41,409 - RAG-System - INFO -  RAG 系统初始化中...
+2026-03-12 09:29:41,409 - RAG-System - INFO -  开始加载文档 (目录: docs)
+2026-03-12 09:29:51,129 - RAG-System - INFO -  成功加载 62 个 .txt 文件
+2026-03-12 09:29:51,589 - RAG-System - INFO -  文档分割完成，共生成 30895 个文本块
+2026-03-12 09:29:51,595 - RAG-System - INFO -  准备嵌入模型: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:29:54,837 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2026-03-12 09:29:54,837 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:29:56,306 - RAG-System - INFO -  模型已缓存，直接加载
+2026-03-12 09:29:56,307 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:30:06,328 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D4273D0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: ad26e777-b75d-4d27-8aae-39bfb2ad8a7e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:30:06,329 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 09:30:17,343 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D4F7E80>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 06bedc2b-056d-4a40-a198-7d71cc1cda79)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:30:17,344 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-12 09:30:29,367 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D4F7D90>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 747059bb-a155-4625-9f93-0012f0f6c713)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:30:29,368 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-12 09:30:43,385 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D4F7AC0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 017a7e51-2f7b-49da-9cc7-7bba3d3642fa)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:30:43,387 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-03-12 09:31:01,409 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D411A50>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: f90ed136-fb0f-45d2-9af8-f5b131273d57)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:31:01,410 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-03-12 09:31:19,421 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D518040>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 1fbd629d-98c7-468d-bc93-8c265d4011c5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:31:29,437 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D518940>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: aecb1ac9-bf65-4313-a983-1673e24f5d34)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 09:31:29,438 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 09:31:40,460 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D518CD0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: 2156295e-71c3-4f7d-91cc-cd8acd583fd3)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 09:31:40,462 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-03-12 09:31:52,483 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000015D5D4133A0>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: ecb1a582-48cd-451c-8f3c-2a4e296cd1f5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-03-12 09:31:52,485 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-03-12 09:48:25,143 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 09:48:25,144 - RAG-System - INFO - ==================================================
+2026-03-12 09:48:25,144 - RAG-System - INFO -  RAG 系统初始化中...
+2026-03-12 09:48:25,144 - RAG-System - INFO -  开始加载文档 (目录: docs)
+2026-03-12 09:48:34,612 - RAG-System - INFO -  成功加载 62 个 .txt 文件
+2026-03-12 09:48:35,067 - RAG-System - INFO -  文档分割完成，共生成 30895 个文本块
+2026-03-12 09:48:35,068 - RAG-System - INFO -  准备嵌入模型: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:48:38,021 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cuda:0
+2026-03-12 09:48:38,021 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:48:39,458 - RAG-System - INFO -  模型已缓存，将强制离线加载
+2026-03-12 09:48:39,460 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-03-12 09:48:49,489 - huggingface_hub.utils._http - WARNING - '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000021849DF5C60>, 'Connection to huggingface.co timed out. (connect timeout=10)'))"), '(Request ID: a9edf11f-e56d-4b80-be9d-16b2d8b2f4ea)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-03-12 09:48:49,490 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-03-12 10:59:37,603 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 10:59:37,603 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 10:59:40,720 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:02:19,994 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:02:19,994 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:02:23,025 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:02:24,767 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:02:25,048 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:02:25,054 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:02:25,242 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:02:30,301 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:02:30,302 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:03:32,855 - RAG-System - INFO - ==================================================
+2026-03-12 11:03:32,855 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 11:03:32,856 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:03:42,614 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:03:43,124 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:04:25,750 - RAG-System - INFO - ==================================================
+2026-03-12 11:04:25,751 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 11:04:25,751 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:04:35,415 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:04:35,913 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:10:53,700 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:10:53,701 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:10:57,704 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:10:59,113 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:10:59,216 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:10:59,218 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:10:59,387 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:11:03,673 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:11:03,675 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:11:12,047 - RAG-System - INFO - ==================================================
+2026-03-12 11:11:12,048 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 11:11:12,054 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:11:21,657 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:11:22,079 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:18:47,124 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:18:47,125 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:18:51,008 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:18:52,451 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:18:52,558 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:18:52,559 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:18:52,579 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:18:55,402 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:18:55,403 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:19:04,925 - RAG-System - INFO - ==================================================
+2026-03-12 11:19:04,925 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 11:19:04,926 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:19:14,481 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:19:14,902 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:21:01,519 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:21:01,519 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:21:04,452 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:21:05,635 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:21:05,732 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:21:05,733 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:21:05,752 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:21:08,477 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:21:08,480 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:21:31,398 - RAG-System - INFO - ==================================================
+2026-03-12 11:21:31,399 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 11:21:31,399 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:21:40,916 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:21:41,336 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:29:40,323 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:29:40,324 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:30:20,066 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:30:22,355 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:30:22,575 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:30:22,577 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:30:22,597 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:30:25,889 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:30:25,890 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:30:43,790 - RAG-System - WARNING - 删除目录失败，将尝试重命名: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'chroma_db\\chroma.sqlite3'
+2026-03-12 11:38:55,893 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 11:38:55,893 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 11:38:59,186 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 11:39:00,451 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 11:39:00,550 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:39:00,552 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:39:00,573 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 11:39:04,070 - RAG-System - INFO - LLM 加载成功
+2026-03-12 11:39:04,072 - RAG-System - INFO - RAG 链已创建
+2026-03-12 11:39:10,537 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 11:39:20,943 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 11:39:21,472 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 11:39:21,473 - RAG-System - INFO - 清空现有向量库...
+2026-03-12 11:39:23,116 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:39:40,701 - RAG-System - WARNING - 清空现有向量库失败: 
+                    Cannot submit more than 41,666 embeddings at once.
+                    Please submit your embeddings in batches of size
+                    41,666 or less.
+                    ，将尝试重建连接
+2026-03-12 11:39:40,704 - RAG-System - INFO - 重新连接向量库...
+2026-03-12 11:39:40,707 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:39:40,707 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 11:39:41,741 - RAG-System - ERROR - 清空新连接中的文档失败: 
+                    Cannot submit more than 41,666 embeddings at once.
+                    Please submit your embeddings in batches of size
+                    41,666 or less.
+                    
+2026-03-12 11:39:41,742 - RAG-System - ERROR - 重建向量库失败: 
+                    Cannot submit more than 41,666 embeddings at once.
+                    Please submit your embeddings in batches of size
+                    41,666 or less.
+                    
+Traceback (most recent call last):
+  File "C:\rag2-proj\rag.py", line 339, in main
+    collection.delete(ids=all_ids)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\models\Collection.py", line 521, in delete
+    self._client._delete(self.id, ids, where, where_document)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\segment.py", line 633, in _delete
+    self._producer.submit_embeddings(coll["topic"], records_to_submit)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\db\mixins\embeddings_queue.py", line 137, in submit_embeddings
+    raise ValueError(
+ValueError: 
+                    Cannot submit more than 41,666 embeddings at once.
+                    Please submit your embeddings in batches of size
+                    41,666 or less.
+                    
+2026-03-12 13:08:30,076 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 13:08:30,077 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 13:08:46,984 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 13:08:49,271 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 13:08:49,419 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:08:49,420 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:08:49,443 - RAG-System - INFO - 检测到现有向量库（61790 个文档），直接加载
+2026-03-12 13:08:53,992 - RAG-System - INFO - LLM 加载成功
+2026-03-12 13:08:53,993 - RAG-System - INFO - RAG 链已创建
+2026-03-12 13:09:07,383 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 13:09:17,064 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 13:09:17,577 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 13:09:17,577 - RAG-System - INFO - 清空现有向量库...
+2026-03-12 13:09:19,263 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:22,566 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:22,566 - RAG-System - INFO - 已删除批次 1/7 (10000 个文档)
+2026-03-12 13:09:25,530 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:25,531 - RAG-System - INFO - 已删除批次 2/7 (10000 个文档)
+2026-03-12 13:09:28,552 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:28,553 - RAG-System - INFO - 已删除批次 3/7 (10000 个文档)
+2026-03-12 13:09:31,472 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:31,473 - RAG-System - INFO - 已删除批次 4/7 (10000 个文档)
+2026-03-12 13:09:34,290 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:34,291 - RAG-System - INFO - 已删除批次 5/7 (10000 个文档)
+2026-03-12 13:09:36,966 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:36,968 - RAG-System - INFO - 已删除批次 6/7 (10000 个文档)
+2026-03-12 13:09:37,360 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionDeleteEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:09:37,361 - RAG-System - INFO - 已删除批次 7/7 (1790 个文档)
+2026-03-12 13:09:37,361 - RAG-System - INFO - 成功删除所有 61790 个旧文档
+2026-03-12 13:09:37,364 - RAG-System - INFO - 现有向量库清空完成
+2026-03-12 13:09:37,365 - RAG-System - INFO - 向向量库添加 30895 个新文档块...
+2026-03-12 13:11:30,979 - RAG-System - ERROR - 重建向量库失败: Embedding dimension 768 does not match collection dimensionality 384
+Traceback (most recent call last):
+  File "C:\rag2-proj\rag.py", line 348, in main
+    vector_db.add_documents(text_chunks)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\langchain_core\vectorstores\base.py", line 282, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\langchain_community\vectorstores\chroma.py", line 299, in add_texts
+    self._collection.upsert(
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\models\Collection.py", line 487, in upsert
+    self._client._upsert(
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\segment.py", line 465, in _upsert
+    self._validate_embedding_record(coll, r)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\segment.py", line 803, in _validate_embedding_record
+    self._validate_dimension(collection, len(record["embedding"]), update=True)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\anaconda\envs\rag-env\lib\site-packages\chromadb\api\segment.py", line 818, in _validate_dimension
+    raise InvalidDimensionException(
+chromadb.errors.InvalidDimensionException: Embedding dimension 768 does not match collection dimensionality 384
+2026-03-12 13:14:31,792 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 13:14:31,792 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 13:14:36,352 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 13:14:38,277 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 13:14:38,643 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:14:38,679 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:14:38,683 - RAG-System - INFO - 向量库为空，需要重建
+2026-03-12 13:14:38,684 - RAG-System - INFO - 未找到可用向量库，开始完整初始化...
+2026-03-12 13:14:38,684 - RAG-System - INFO - ==================================================
+2026-03-12 13:14:38,684 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 13:14:38,684 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 13:14:48,437 - RAG-System - INFO - 成功加载 62 个 .txt 文件
+2026-03-12 13:14:48,937 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 13:14:48,940 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:14:48,941 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:14:48,941 - RAG-System - INFO - 向向量库添加 30895 个文本块
+2026-03-12 13:17:09,450 - RAG-System - INFO - 向量库已持久化
+2026-03-12 13:17:14,421 - RAG-System - INFO - LLM 加载成功
+2026-03-12 13:17:14,422 - RAG-System - INFO - RAG 链已创建
+2026-03-12 13:17:14,423 - RAG-System - INFO - 完整初始化完成
+2026-03-12 13:17:46,239 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:52:09,752 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 13:52:09,753 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 13:52:13,661 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 13:52:15,390 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 13:52:15,495 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:52:15,498 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 13:52:15,589 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 13:52:18,315 - RAG-System - INFO - LLM 加载成功
+2026-03-12 13:52:18,316 - RAG-System - INFO - RAG 链已创建
+2026-03-12 13:56:56,947 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:12:27,275 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 14:12:27,276 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 14:12:31,344 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 14:12:33,058 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 14:12:33,156 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:12:33,157 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:12:33,171 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 14:12:35,961 - RAG-System - INFO - LLM 加载成功
+2026-03-12 14:12:35,963 - RAG-System - INFO - RAG 链已创建
+2026-03-12 14:12:42,448 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:32:53,801 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 14:32:53,802 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 14:32:57,692 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 14:32:59,426 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 14:32:59,530 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:32:59,532 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:32:59,618 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 14:33:02,411 - RAG-System - INFO - LLM 加载成功
+2026-03-12 14:33:02,413 - RAG-System - INFO - RAG 链已创建
+2026-03-12 14:33:53,138 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:47:08,029 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 14:47:08,030 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 14:47:11,990 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 14:47:13,475 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 14:47:13,574 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:47:13,576 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 14:47:13,590 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 14:47:16,369 - RAG-System - INFO - LLM 加载成功
+2026-03-12 14:47:16,371 - RAG-System - INFO - RAG 链已创建
+2026-03-12 14:48:26,384 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:03:34,887 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 15:03:34,888 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 15:03:38,843 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 15:03:40,087 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 15:03:40,186 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:03:40,187 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:03:40,201 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 15:03:43,067 - RAG-System - INFO - LLM 加载成功
+2026-03-12 15:03:43,068 - RAG-System - INFO - RAG 链已创建
+2026-03-12 15:04:38,670 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:23:06,930 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 15:23:06,930 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 15:23:10,886 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 15:23:12,625 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 15:23:12,735 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:23:12,737 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 15:23:12,824 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 15:23:15,656 - RAG-System - INFO - LLM 加载成功
+2026-03-12 15:23:15,657 - RAG-System - INFO - RAG 链已创建
+2026-03-12 15:24:40,307 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 16:12:19,136 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 16:12:19,136 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 16:12:40,372 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 16:12:42,964 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 16:12:43,117 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 16:12:43,119 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 16:12:43,209 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 16:12:46,708 - RAG-System - INFO - LLM 加载成功
+2026-03-12 16:12:46,710 - RAG-System - INFO - RAG 链已创建
+2026-03-12 16:13:20,749 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:01:39,965 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 17:01:39,966 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 17:01:43,974 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 17:01:45,446 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 17:01:45,550 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:01:45,552 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:01:45,639 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 17:01:49,786 - RAG-System - INFO - LLM 加载成功
+2026-03-12 17:01:49,788 - RAG-System - INFO - RAG 链已创建
+2026-03-12 17:02:07,835 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:10:03,705 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 17:10:03,706 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 17:10:07,617 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 17:10:09,392 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 17:10:09,497 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:10:09,499 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:10:09,580 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 17:10:12,475 - RAG-System - INFO - LLM 加载成功
+2026-03-12 17:10:12,476 - RAG-System - INFO - RAG 链已创建
+2026-03-12 17:10:22,425 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:15:57,938 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 17:15:57,939 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 17:16:07,886 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 17:16:11,014 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 17:16:11,189 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:16:11,192 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 17:16:11,216 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 17:16:15,206 - RAG-System - INFO - LLM 加载成功
+2026-03-12 17:16:15,208 - RAG-System - INFO - RAG 链已创建
+2026-03-12 17:18:50,757 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:11:14,374 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 21:11:14,375 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 21:11:18,672 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 21:11:20,531 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 21:11:20,642 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:11:20,644 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:11:20,740 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 21:11:28,228 - RAG-System - INFO - LLM 加载成功
+2026-03-12 21:11:28,229 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 21:12:10,346 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:39:57,466 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 21:39:57,467 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 21:40:01,575 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 21:40:03,348 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 21:40:03,464 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:40:03,465 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:40:03,556 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 21:40:06,311 - RAG-System - INFO - LLM 加载成功
+2026-03-12 21:40:06,312 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 21:40:06,312 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 21:40:06,313 - RAG-System - INFO - 文档目录: docs
+2026-03-12 21:40:56,056 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 21:43:55,787 - RAG-System - INFO - 系统已退出
+2026-03-12 22:02:48,971 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:02:48,972 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:02:52,919 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:02:54,441 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:02:54,600 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:02:54,614 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:02:54,616 - RAG-System - INFO - 向量库为空，需要重建
+2026-03-12 22:02:54,617 - RAG-System - INFO - 未找到可用向量库，开始完整初始化...
+2026-03-12 22:02:54,617 - RAG-System - INFO - ==================================================
+2026-03-12 22:02:54,617 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 22:02:54,617 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 22:03:01,245 - langchain_community.document_loaders.directory - ERROR - Error loading file docs\my_idioms_corpus_modified.txt
+2026-03-12 22:03:01,251 - RAG-System - ERROR - 文档加载失败: Timeout reached while detecting encoding for docs\my_idioms_corpus_modified.txt
+2026-03-12 22:06:03,975 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:06:03,976 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:06:06,933 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:06:08,135 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:06:08,233 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:06:08,234 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:06:08,242 - RAG-System - INFO - 向量库为空，需要重建
+2026-03-12 22:06:08,243 - RAG-System - INFO - 未找到可用向量库，开始完整初始化...
+2026-03-12 22:06:08,243 - RAG-System - INFO - ==================================================
+2026-03-12 22:06:08,244 - RAG-System - INFO - 执行完整初始化流程...
+2026-03-12 22:06:08,244 - RAG-System - INFO - 开始加载文档 (目录: docs)
+2026-03-12 22:06:14,943 - RAG-System - INFO - 成功加载 7 个 .txt 文件
+2026-03-12 22:06:15,369 - RAG-System - INFO - 文档分割完成，共生成 30895 个文本块
+2026-03-12 22:06:15,371 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:06:15,373 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:06:15,373 - RAG-System - INFO - 向向量库添加 30895 个文本块
+2026-03-12 22:08:01,972 - RAG-System - INFO - 向量库已持久化
+2026-03-12 22:08:10,098 - RAG-System - INFO - LLM 加载成功
+2026-03-12 22:08:10,099 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 22:08:10,099 - RAG-System - INFO - 完整初始化完成
+2026-03-12 22:08:10,107 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 22:08:10,107 - RAG-System - INFO - 文档目录: docs
+2026-03-12 22:09:03,691 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:15:25,985 - RAG-System - INFO - 系统已退出
+2026-03-12 22:15:36,956 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:15:36,957 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:15:40,932 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:15:42,701 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:15:42,811 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:15:42,814 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:15:42,889 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 22:15:45,848 - RAG-System - INFO - LLM 加载成功
+2026-03-12 22:15:45,849 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 22:15:45,849 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 22:15:45,850 - RAG-System - INFO - 文档目录: docs
+2026-03-12 22:16:34,785 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:30:07,603 - RAG-System - INFO - 系统已退出
+2026-03-12 22:30:13,126 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:30:13,127 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:30:17,069 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:30:18,813 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:30:18,918 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:30:18,920 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:30:18,985 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 22:30:21,829 - RAG-System - INFO - LLM 加载成功
+2026-03-12 22:30:21,830 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 22:30:21,830 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 22:30:21,831 - RAG-System - INFO - 文档目录: docs
+2026-03-12 22:30:44,095 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:38:35,937 - RAG-System - INFO - 系统已退出
+2026-03-12 22:38:43,560 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:38:43,561 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:38:47,429 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:38:49,152 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:38:49,251 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:38:49,253 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:38:49,320 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 22:38:52,119 - RAG-System - INFO - LLM 加载成功
+2026-03-12 22:38:52,119 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 22:38:52,120 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 22:38:52,120 - RAG-System - INFO - 文档目录: docs
+2026-03-12 22:49:56,002 - RAG-System - INFO - 系统已退出
+2026-03-12 22:57:10,866 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 22:57:10,866 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 22:57:13,095 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 22:57:14,155 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-03-12 22:57:14,863 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:57:14,868 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 22:57:14,881 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 22:57:18,515 - RAG-System - INFO - LLM 加载成功
+2026-03-12 22:57:18,516 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 22:57:18,517 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 22:57:18,518 - RAG-System - INFO - 文档目录: docs
+2026-03-12 22:58:02,381 - chromadb.telemetry.product.posthog - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-03-12 23:06:54,207 - RAG-System - INFO - 系统已退出
+2026-03-12 23:07:08,299 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 23:07:08,299 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 23:07:11,313 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 23:07:13,146 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 23:07:18,608 - RAG-System - INFO - LLM 加载成功
+2026-03-12 23:07:18,617 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 23:07:18,617 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 23:07:18,618 - RAG-System - INFO - 文档目录: docs
+2026-03-12 23:08:38,486 - RAG-System - INFO - 系统已退出
+2026-03-12 23:09:05,770 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 23:09:05,771 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 23:09:08,833 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 23:09:10,732 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 23:09:16,117 - RAG-System - INFO - LLM 加载成功
+2026-03-12 23:09:16,119 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 23:09:16,120 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 23:09:16,120 - RAG-System - INFO - 文档目录: docs
+2026-03-12 23:20:00,771 - RAG-System - INFO - 系统已退出
+2026-03-12 23:38:09,141 - RAG-System - INFO - 配置文件加载成功: config.yaml
+2026-03-12 23:38:09,142 - RAG-System - INFO - 从本地路径加载嵌入模型: ./models/embedding/m3e-base
+2026-03-12 23:38:12,175 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: ./models/embedding/m3e-base
+2026-03-12 23:38:14,091 - RAG-System - INFO - 检测到现有向量库（30895 个文档），直接加载
+2026-03-12 23:38:19,850 - RAG-System - INFO - LLM 加载成功
+2026-03-12 23:38:19,860 - RAG-System - INFO - 直接调用模式的 RAG 函数已创建
+2026-03-12 23:38:19,860 - RAG-System - INFO - 
+RAG 系统已就绪！(输入 '/reload_db' 重新加载文档，'exit' 退出)
+2026-03-12 23:38:19,861 - RAG-System - INFO - 文档目录: docs
+2026-03-12 23:39:15,688 - RAG-System - INFO - 系统已退出

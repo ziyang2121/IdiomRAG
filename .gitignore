@@ -1,0 +1,6 @@
+# 忽略 chroma_db 整个文件夹
+/chroma_db/
+
+# 忽略 models 整个文件夹
+/models/
+

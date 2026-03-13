@@ -1,0 +1,24 @@
+# config.yaml
+paths:
+  doc_dir: "docs"                 # 存放 .txt 文档的目录
+  vectorstore_dir: "chroma_db"    # 向量数据库持久化目录
+
+embeddings:
+  model: "moka-ai/m3e-base"  # 嵌入模型名称
+  model_path: "./models/embedding/m3e-base"
+llm:
+  model_path: "./models/qwen2.5-7b/qwen2.5-7b-instruct-q4_k_m.gguf"   # LLM 模型路径
+  n_ctx: 81920                      # 上下文窗口大小
+  n_threads: 4                      # 线程数（建议根据 CPU 核心调整）
+  temperature: 0.1                  # 生成温度
+  top_p: 0.3                        # top_p 采样
+  max_tokens: 256                  # 最大生成长度
+  repeat_penalty: 1.3
+
+retrieval:
+  k: 1                              # 检索返回的文档块数量
+
+splitting:
+  chunk_size: 1000                  # 文本块最大长度
+  chunk_overlap: 0                # 块间重叠长度
+  boundary_marker: "---"             # 语义分割标记
